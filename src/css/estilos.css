@@ -19,7 +19,7 @@ main::after {
 
 main .personagem{
     display: none;
-    height: 105vh;
+    height: 100vh;
 }
 
 main .personagem.selecionado {
@@ -39,14 +39,14 @@ main .personagem .imagem {
     display:flex;
     flex-direction: column;
     justify-content:center; 
-    min-height: 110vh;
+    min-height: 107vh;
     max-width: 300px;
     z-index: 1;
 }
 
 .conteudo .nome-personagem {
     color: white;
-    font-size: 38px;
+    font-size: 30px;
     font-family: "Secular One";
     font-weight: 400;
     margin-bottom: 20px;
@@ -63,7 +63,8 @@ main .personagem .imagem {
     background-size: cover;
     height: 100px;
     width: 200px;
-    margin-bottom: 10px;
+    margin-bottom: -5px;
+    
 }
 
 .botoes {
